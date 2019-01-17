@@ -1,0 +1,555 @@
+body
+{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(lrc.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+}
+img
+{
+  height:110px;
+  width:90px;
+  position: absolute;
+  left:5%;
+  top:3%;
+
+}
+h2
+{
+  position: absolute;
+  top:0%;
+  left:15%;
+  color:skyblue;
+  font-size: 50px;
+  text-shadow: 1px 1px 2px black;
+  font-family: "sapisrg_","sapism_","sapisl__","SapientSansBold_gdi",Arial,Helvetica,sans-serif;
+}
+.items
+{
+  position:absolute;
+  top:12%;
+  margin-top: 25px;
+  left: 29%;
+}
+.items a
+{
+  color:#FFFFFF;
+  text-decoration: none;
+  outline:none;
+}
+.items a:hover
+{
+  cursor:pointer;
+}
+.items li
+{
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+  display: inline;
+  padding:10px 15px;
+  font-size: 22px;
+}
+a:hover
+{
+  color:rgb(210,50,0);
+  -webkit-text-stroke: 1px rgb(210,50,0);
+}
+.main
+{
+  position: absolute;
+  left:2.1%;
+  top: 28%;
+  width: 96%;
+  height: 58%;
+  background-color:;
+}
+.boxes
+{
+  background-color: white;
+  opacity: 0.8;
+  margin-top:26px;
+  height: 74%;
+  width: 20%;
+  float: left;
+  display:inline;
+  padding:10px 20px;
+  /*background-color: rgba(146,199,221,0.8);*/
+  border-radius: 2px;
+  box-shadow: -10px 10px 10px;
+  z-index: -1;
+  transition: width 1s;
+}
+.boxes:hover
+{
+  width:25%;
+
+}
+.b1
+{
+  margin-left: 88px;
+}
+.b2
+{
+  margin-left:100px
+}
+.b3
+{
+  margin-left: 100px;
+}
+.boxtext
+{
+  text-align: center;
+  color: #007BA7;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size:18px;
+}
+.boxtext:hover
+{
+	color:black;
+}
+blink
+{
+  -webkit-animation:colorchange 0.5s infinite alternate;
+}
+@-webkit-keyframes colorchange {
+      0%
+      {
+        color:red;
+      } SIGN
+      50% {
+
+        color: red;
+      }
+
+      100% {
+
+        color: green;
+      }
+    }
+.foot
+{
+  position: absolute;
+  left:0%;
+  top: 92%;
+  width: 100%;
+  position:fixed;
+  height: 10%;
+  background-color: black;
+  opacity:0.8;
+  transition: top 0.5s;
+}
+.foot:hover
+{
+
+	background-color:black;
+	top:90%;
+}
+.footer li
+{
+  position: relative;
+  left:75%;
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+  display:inline;
+  padding:10px 15px;
+}
+.footer li:hover
+{
+    font-size: 16.5px;
+    color:white;
+    font-weight: bold;
+}
+.login
+{
+  position: absolute;
+  top:5%;
+  left:36%;
+  width:30%;
+  height:90%;
+  background-color:;
+}
+.input_user
+{
+  background-color:rgb(232,232,232,1);
+  opacity: 1;
+  height: 15%;
+  width: 70%;
+  position: absolute;
+  top: 14%;
+  left:15%;
+  box-shadow: 3px 3px 4px black;
+  z-index: 1;
+  border-radius: 4px;
+}
+.input_pass
+{
+  background-color:rgb(232,232,232,1);
+  opacity: 1;
+  height: 15%;
+  width: 70%;
+  position: absolute;
+  top: 40%;
+  left:15%;
+  border-radius: 4px;
+  box-shadow: 3px 3px 4px black;
+}
+.submit
+{
+  border-radius: 4px;
+  position: absolute;
+  height:15%;
+  width: 70%;
+  top:65%;
+  left: 15%;
+  background-color:#66b3ff;
+  text-align: center;
+}
+.submit:hover
+{
+  background-color: green;
+  cursor: pointer;
+}
+.log_in
+{
+  color: white;
+  position: relative;
+  top: 30%;
+  font-family:'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.register
+{
+  position: absolute;
+  top: 110%;
+  left:12%;
+}
+#not_reg
+{
+  font-size:12px;
+  color:rgb(170,170,170,1);
+}
+#create
+{
+  font-size: 12px;
+  color:#66b3ff;
+}
+#create:hover
+{
+  cursor: alias;
+}
+#forgot:hover
+{
+  cursor:alias;
+}
+#forgot
+{
+  font-size: 12px;
+  color:#66b3ff;
+}
+.signup
+{
+  background-color:;
+  position: absolute;
+  top:5%;
+  left:36%;
+  width:30%;
+  height:90%;
+}
+.signup2
+{
+  background-color:rgb(232,232,232,1);
+  opacity: 1;
+  height: 15%;
+  width: 70%;
+  position: absolute;
+  left:15%;
+  border-radius: 4px;
+  box-shadow: 3px 3px 4px black;
+}
+.sign_enroll
+{
+  top:10%;
+}
+.sign_name
+{
+  top:30%;
+}
+.sign_email
+{
+  top:50%;
+}
+.sign_pass
+{
+  top:70%;
+}
+.sign_up
+{
+  border-radius: 4px;
+  position: absolute;
+  height:15%;
+  width: 70%;
+  top:90%;
+  left: 15%;
+  background-color:#66b3ff;
+  text-align: center;
+}
+
+.signup1
+{
+  color: white;
+  position: relative;
+  top: 30%;
+  font-family:'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.sign_up:hover
+{
+  background-color:orange;
+  cursor:pointer;
+}
+.signkrlo
+{
+  position: absolute;
+  top:108%;
+  left:44%;
+}
+#signkrtext
+{
+  font-size: 16px;
+  color:#66b3ff;
+}
+#signkrtext:hover
+{
+  cursor: alias;
+}
+input[type="text"]
+{
+    font-size:17px;
+}
+input[type="password"]
+{
+    font-size:17px;
+}
+#enrollDone
+{
+  position: absolute;
+  left:90%;
+  top:13%;
+  color:lime;
+  font-weight:1000;
+}
+#nameDone
+{
+  position: absolute;
+  left:90%;
+  top:33%;
+  color:lime;
+  font-weight:1000;
+}
+#emailDone
+{
+  position: absolute;
+  left:90%;
+  top:53%;
+  color:lime;
+  font-weight:1000;
+}
+#passDone
+{
+  position: absolute;
+  left:90%;
+  top:73%;
+  color:lime;
+  font-weight:1000;
+}
+#enrollExist
+{
+  color:#C21807;
+  font-family:'Montserrat', sans-serif;
+  font-size: 10px;
+  position: absolute;
+  left:99%;
+  top:10%;
+  font-weight: bold;
+}
+.he
+{
+  position: absolute;
+  left:40%;
+  color:skyblue;
+  font-family:"sapisrg_","sapism_","sapisl__","SapientSansBold_gdi",Arial,Helvetica,sans-serif;
+  font-size: 30px;
+  display: inline;
+  font-weight: bold;
+}
+.he1
+{
+  position: absolute;
+  left:46%;
+  top:35%;
+  font-size: 20px;
+  color:white;
+  font-family:"sapisrg_","sapism_","sapisl__","SapientSansBold_gdi",Arial,Helvetica,sans-serif;
+}
+.he1:hover
+{
+  color:lime;
+  font-weight: bold;
+  cursor:alias;
+}
+.image1
+{
+  position: absolute;
+  top:-40%;
+}
+.image
+{
+  border: 2px solid green;
+  width:70px;
+  height:70px;
+  background-color:white;
+  border-radius: 80px;
+  position: relative;
+  left:48%;
+  top:20%;
+}
+#phperror
+{
+  color:#C21807;
+  position: absolute;
+  top:42%;
+  left:90%;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+.name1
+{
+  position: absolute;
+  font-size:45px;
+  font-family: 'Ubuntu', sans-serif;
+  color:white;
+  text-shadow: 6px 6px black;
+  top:-10%;
+  left:10%;
+}
+.name2
+{
+  position: absolute;
+  display: inline-block;
+  font-size: 45px;
+  font-family: 'Ubuntu', sans-serif;
+  color:white;
+  text-shadow: 6px 6px black;
+  top:-10%;
+  left:60%;
+}
+.name3
+{
+  position: absolute;
+  display: block;
+  font-size: 45px;
+  font-family: 'Ubuntu', sans-serif;
+  color:white;
+  text-shadow: 6px 6px black;
+  top:50%;
+  left:10%;
+}
+.name4
+{
+  position: absolute;
+  display: inline-block;
+  font-size: 45px;
+  font-family: 'Ubuntu', sans-serif;
+  color:white;
+  text-shadow: 6px 6px black;
+  top:50%;
+  left:60%;
+}
+.enroll1
+{
+  position: absolute;
+  font-size:35px;
+  font-family: 'Ubuntu', sans-serif;
+  color:white;
+  text-shadow: 4px 4px black;
+  top:10%;
+  left:10%;
+}
+.enroll2
+{
+  position: absolute;
+  display: inline-block;
+  font-size:35px;
+  font-family: 'Ubuntu', sans-serif;
+  color:white;
+  text-shadow: 4px 4px black;
+  top:10%;
+  left:60%;
+}
+.enroll3
+{
+  position: absolute;
+  font-size:35px;
+  font-family: 'Ubuntu', sans-serif;
+  color:white;
+  text-shadow: 4px 4px black;
+  top:70%;
+  left:10%;
+}
+.enroll4
+{
+  position: absolute;
+  display: inline-block;
+  font-size:35px;
+  font-family: 'Ubuntu', sans-serif;
+  color:white;
+  text-shadow: 4px 4px black;
+  top:70%;
+  left:60%;
+}
+.batch1
+{
+  position: absolute;
+  font-size:35px;
+  font-family: 'Ubuntu', sans-serif;
+  color:white;
+  text-shadow: 4px 4px black;
+  top:28%;
+  left:10%;
+}
+.batch2
+{
+  position: absolute;
+  display: inline-block;
+  font-size:35px;
+  font-family: 'Ubuntu', sans-serif;
+  color:white;
+  text-shadow: 4px 4px black;
+  top:28%;
+  left:60%;
+}
+.batch3
+{
+  position: absolute;
+  display: block;
+  font-size:35px;
+  font-family: 'Ubuntu', sans-serif;
+  color:white;
+  text-shadow: 4px 4px black;
+  top:86%;
+  left:10%;
+}
+.batch4
+{
+  position: absolute;
+  display: inline-block;
+  font-size:35px;
+  font-family: 'Ubuntu', sans-serif;
+  color:white;
+  text-shadow: 4px 4px black;
+  top:86%;
+  left:60%;
+}

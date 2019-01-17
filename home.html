@@ -1,0 +1,72 @@
+<html>
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="home.css">
+  <script src="home.js"></script>
+</head>
+<body>
+  <a href="" onclick=change_div("first")><img src="logo(1).png"></img></a>
+  <h2>Jaypee Institute Of Information Technology</h2>
+  <div class = "items">
+  <ul>
+    <li><a onclick=change_div("first")>HOME</a></li>
+    <li><a onclick = change_div("logging")>LOG IN</a></li>
+    <li><a onclick = change_div("signingup")>SIGN UP</a></li>
+    <li><a>ABOUT US</a></li>
+  </ul>
+  </div>
+  <div class="main">
+    <div id="first">
+    <div class="boxes b1" style="display:block">
+      <span class="boxtext"><blink>*New Books Arrived*</blink><br><br>C++ By K.C Gupta<br><br>Python By A.K Sharma<br><br>CSS By Prajwal Singla<br><br>HTML By Rachit Goel</span>
+    </div>
+    <div class = "boxes b2" style="display:block">
+      <span class="boxtext"><span style="color:194ccb; font-size:22px;"><u>EVENTS</u> :</span><br><br>i. LRC Meetup 2K19<br><br>ii. ICTAC Summit 2K19<br><br>iii. ICSC Conference
+        </span>
+      </div>
+    <div class = "boxes b3" style="display:block">
+    <span class="boxtext" style="color: #1a5276"><marquee direction="up" scrollamount=3>"I have always imagined that Paradise will be a kind of library."- Jorge Luis Borges<br><br>
+      "A university is just a group of buildings gathered around a library."- Shelby Foote</marquee></span>
+    </div>
+  </div>
+
+
+    <div class="login" id="logging" style="display:none">
+      <form>
+     <input autocomplete="off" type="text" placeholder="Username" class="input_user">
+     <input autocomplete="off" type="password" placeholder="Password" class="input_pass">
+      <div class="submit">
+        <div class="log_in">
+        LOG IN
+      </div>
+      <div class="register">
+        <span id="not_reg">Not registered? </span><span id="create">Create an account</span>
+        <br><span id="forgot">Forgot Password?</span>
+      </div>
+      </div>
+    </div>
+  </form>
+
+  <div class = "signup" id="signingup" style="display:none;">
+    <form action="" method="post">
+     <input autocomplete="off" type="text" placeholder="Enrollment No." class="signup2 sign_enroll" id="enrollNo" oninput="validateEnroll()"><i class="material-icons" id="enrollDone"></i><p id="enrollExist"></p>
+     <input autocomplete="off" type="text" placeholder="Name" class="signup2 sign_name" oninput="validateName()" id="signupName"><i class="material-icons" id="nameDone"></i>
+     <input autocomplete="off" type="text" placeholder="Email" class="signup2 sign_email" oninput="validateEmail()" id="signupEmail"><i class="material-icons" id="emailDone"></i>
+     <input autocomplete="off" type="password" placeholder="Password" class="signup2 sign_pass" oninput="validatePass();" id="signupPassword"><i class="material-icons" id="passDone"></i>
+      <div class="sign_up">
+      <div class="signup1">SIGN UP</div>
+    </div>
+    <div class="signkrlo">
+      <span id="signkrtext" onclick=change_div("logging")>
+      Log In?
+    </span>
+    </div>
+    </form>
+  </div>
+  </div>
+  <div class="foot">
+        <span class="footer"><ul><li>HOME</li><li>ABOUT US</li><li>WEB KIOSK</li></span>
+  </div>
+</body>
+</html>

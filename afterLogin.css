@@ -1,0 +1,512 @@
+body
+{
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+}
+.header
+{
+  position: absolute;
+  background-image:linear-gradient(to right,#0cace3,#208cb2,#08698b,#5ba9c4);
+  height: 15%;
+  width: 100%;
+  top:0%;
+  left: 0%;
+}
+.head
+{
+  text-align: center;
+  font-size: 54px;
+  margin-top: 10px;
+  padding:6px 10px;
+}
+.sidemenu
+{
+  position: absolute;
+  top: 15%;
+  left: 0%;
+  height:85%;
+  width: 20%;
+  background-image:linear-gradient(#3c98b8,#3ea9cd,#3dbbe7,#72c7e4,#81defe,#96dff8);
+}
+.content
+{
+  list-style: none;
+  margin-top:30px;
+  width:200px;
+}
+.content  li
+{
+  padding: 5px;
+  position: relative;
+  float: left;
+  width: 300px;
+  margin-left: -50px;
+  line-height: 2.5;
+  border-bottom:1px solid black;
+}
+.content li a
+{
+  color:black;
+  text-decoration: none;
+  padding:2px 16px;
+  width: 100%;
+  border:none;
+  font-family: "Roboto",sans-serif;
+  font-size: 22px;
+}
+.content li a:hover
+{
+  color:#000707;
+
+}
+.explore
+{
+
+  background-image:linear-gradient(#0c9cb2,#05879b,#1d9ce5,#34c6de,#70e5f8);
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  height: 85%;
+  width: 80%;
+
+}
+.after
+{
+  position: absolute;
+  left:2%;
+  padding: 8px 0;
+  margin: 8px 0;
+  font-size: 22px;
+
+}
+.after input
+{
+  outline:none;
+  font-size:15px;
+  width:62.5%;
+  margin:0 26px;
+}
+.after1
+{
+  position: absolute;
+  left:55%;
+  margin-left: 150px;
+  padding:8px 0;
+  margin: 8px 0;
+  font-size: 20px;
+}
+.after1 input
+{
+  outline:none;
+  font-size:15px;
+  width:56%;
+  margin:0 29px;
+}
+.after2
+{
+  position: absolute;
+  top:10%;
+  left:2.5%;
+  padding:8px 0;
+  margin: 8px 0;
+  width:48%;
+  font-size:20px;
+}
+.after2 input
+{
+  outline:none;
+  font-size:15px;
+  width:44%;
+  margin:0 31px;
+}
+.after3
+{
+  position: absolute;
+  top:10%;
+  left:56%;
+  padding: 8px 0;
+  margin: 8px 0;
+  font-size: 20px;
+}
+.after3 input
+{
+  outline:none;
+  position: relative;
+  font-size:15px;
+  width:58%;
+  margin:0 85.57px;
+  top:-24px;
+}
+.after4
+{
+  position: absolute;
+  top:20%;
+  left:2%;
+  padding:8px 0;
+  margin: 8px 0;
+  width:72%;
+  font-size: 20px;
+}
+.after4 input
+{
+  outline:none;
+  font-size:15px;
+  width:29.5%;
+  margin:0 20px;
+}
+.after5
+{
+  position: absolute;
+  top:20%;
+  left:54%;
+  padding: 8px 0;
+  margin: 8px 0;
+  font-size:20px;
+}
+.after5 input
+{
+  outline:none;
+  font-size:15px;
+  width:59%;
+  margin:0 14px;
+}
+.after6
+{
+  position: absolute;
+  top:30%;
+  left:2.2%;
+  padding: 8px 0;
+  margin: 8px 0;
+  font-size: 20px;
+}
+.after6 input
+{
+  outline:none;
+  font-size:15px;
+  width:63%;
+  margin:0 33.1px;
+}
+.after7
+{
+  position: absolute;
+  top:30%;
+  left:54.1%;
+  padding: 8px 0;
+  margin: 8px 0;
+  font-size: 20px;
+}
+.after7 input
+{
+  outline:none;
+  font-size:15px;
+  width:60%;
+  margin:0 16px;
+}
+.after8
+{
+  position: absolute;
+  top:40%;
+  left:2%;
+  padding: 8px 0;
+  margin: 8px 0;
+  font-size: 20px;
+}
+.after8 input
+{
+  outline:none;
+  font-size:15px;
+  width:64.5%;
+  margin:0 21px;
+}
+.after9
+{
+  position: absolute;
+  top:40%;
+  left:54.2%;
+  padding: 8px 0;
+  margin: 8px 0;
+  font-size:20px;
+}
+.after9 input
+{
+  outline:none;
+  font-size:15px;
+  width:59%;
+  margin:0 33px;
+}
+#hidd
+{
+  position:relative;
+  top:70%;
+  margin-left: 450px;
+  font-size:15px;
+
+}
+#search
+{
+  position: absolute;
+  top:2%;
+  left:25%;
+  height: 5%;
+  width: 30%;
+  border-width: 3px;
+}
+#categories
+{
+  position: absolute;
+  top:1.75%;
+  left:57%;
+}
+#click
+{
+  position: absolute;
+  top: 1.9%;
+  left:69%;
+}
+
+#hello
+{
+  color:black;
+  font-weight: bold;
+  position: absolute;
+  top:60%;
+  left: 85%;
+}
+table,th,td{
+  border: 0px solid black;
+  /*border-collapse:collapse;*/
+  text-align: center;
+  border-spacing: 20px;
+  font-family: "Roboto",sans-serif;
+  font-size: 25px;
+}
+.searchTable
+{
+  position: absolute;
+  top:20%;
+  left:0%;
+  width: 100%;
+}
+#hold
+{
+  position: absolute;
+  top:90%;
+  left: 40%;
+}
+#hidd
+{
+  position: absolute;
+  top:60%;
+}
+#hold_table {
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  border:3px solid black;
+}
+#issue_book{
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  border:3px solid black;
+}
+#held_books
+{
+  position: absolute;
+  left:38%;
+}
+#issued_books
+{
+  position: absolute;
+  top:38%;
+  left:36%;
+}
+.box1
+{
+  color:black;
+  font-size: 15px;
+  float:left;
+  left:7%;
+  margin-top:10px;
+  position: relative;
+  width: 490px;
+  height: 260px;
+  background-color:#bac6c5;
+  opacity:0.80;
+  border-radius: 1.5rem;
+  background-image: url("26165770_1156567364487255_5615696466310603617_n.jpg");
+  background-size: 35% 35%;
+  background-position: 5% 15% ;
+  background-repeat: no-repeat;
+  box-shadow: 2px 2px 10px 6px black;
+}
+.box2
+{
+  color:black;
+  font-size:15px;
+  left:12.5%;
+  margin-top: 10px;
+  position: relative;
+  display: inline-block;
+  width: 500px;
+  height: 260px;
+  background-color:#bac6c5;
+  opacity:0.80;
+  border-radius: 1.5rem;
+  background-image: url("IMG_20180408_210327.jpg");
+  background-size: 25% 50%;
+  background-position: 5% 15% ;
+  background-repeat: no-repeat;
+  box-shadow: 2px 2px 10px 6px black;
+}
+.box3
+{
+  color:black;
+  font-size:15px;
+  left:7%;
+  margin-top:40px;
+  position: relative;
+  display:block;
+  width: 490px;
+  height: 265px;
+  background-color:#bac6c5;
+  opacity:0.80;
+  border-radius: 1.5rem;
+  background-image: url("IMG_20181124_133320.jpg");
+  background-size: 27% 50%;
+  background-position: 5% 15% ;
+  background-repeat: no-repeat;
+  box-shadow: 2px 2px 10px 6px black;
+}
+.box4
+{
+  color:black;
+  font-size:15px;
+  left:52.8%;
+  margin-top:-266px;
+  position:absolute;
+  display:inline;
+  width: 500px;
+  height: 265px;
+  background-color:#bac6c5;
+  opacity:0.80;
+  border-radius: 1.5rem;
+  background-image: url("29313865_1653313748096144_5961424283409317888_n.jpg");
+  background-size: 35% 50%;
+  background-position: 5% 15% ;
+  background-repeat: no-repeat;
+  box-shadow: 2px 2px 10px 6px black;
+}
+.text1
+{
+  left:41%;
+  position: absolute;
+}
+.text2
+{
+  left:31%;
+  position: absolute;
+}
+.text3
+{
+  left:35%;
+  position: absolute;
+}
+.text4
+{
+  left:41%;
+  position: absolute;
+}
+.enroll1
+{
+  left:41%;
+  position: absolute;
+  top:14%;
+}
+.enroll2
+{
+  left:31%;
+  position: absolute;
+  top:14%;
+}
+.enroll3
+{
+  left:35%;
+  position: absolute;
+  top:14%;
+}
+.enroll4
+{
+  left:41%;
+  position: absolute;
+  top:14%;
+}
+.profile1
+{
+  text-decoration:none;
+  color:black;
+  font-size:24px;
+  font-weight: bold;
+  left:41%;
+  top:35%;
+  position: absolute;
+}
+.profile2
+{
+  text-decoration:none;
+  color:black;
+  font-size:24px;
+  font-weight: bold;
+  left:31%;
+  top:35%;
+  position: absolute;
+}
+.profile3
+{
+  text-decoration:none;
+  color:black;
+  font-size:24px;
+  font-weight: bold;
+  left:35%;
+  top:35%;
+  position: absolute;
+}
+.profile4
+{
+  text-decoration:none;
+  color:black;
+  font-size:24px;
+  font-weight: bold;
+  left:41%;
+  top:35%;
+  position: absolute;
+}
+.profile1:hover
+{
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+}
+.profile2:hover
+{
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+}
+.profile3:hover
+{
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+}
+.profile4:hover
+{
+  text-decoration-line: underline;
+  text-decoration-style:dashed;
+}
+#book_not_avail{
+  position: absolute;
+  top: 10%;
+  left:35%;
+  color: red;
+}
